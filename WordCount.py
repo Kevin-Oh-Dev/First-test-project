@@ -1,7 +1,7 @@
 from operator import itemgetter
 
 word_counts = dict()
-lines = open("d://WorkSpace//PythonStudy//WordCount//sample.txt")
+lines = open("sample.txt")
 
 for line in lines:
     line.lstrip()
